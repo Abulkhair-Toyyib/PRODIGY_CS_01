@@ -62,7 +62,7 @@ if user_input == "e":
     key = int(input("Enter the key (1 through 26): "))
     text = input("Enter the text to encrypt: ")
     ciphertext = encrypt(text, key)
-    print(f'CIPHERTEXT: {ciphertext}')
+    print(f'ENCRYPTED!: {ciphertext}')
     
 elif user_input == "d":
     print("DECRYPTION MODE SELECTED")
@@ -70,5 +70,5 @@ elif user_input == "d":
     key = int(input("Enter the key (1 through 26): "))
     text = input("Enter the text to decrypt: ")
     plaintext = decrypt(text, key)
-    print(f'PLAINTEXT: {plaintext}')
+    print(f'DECRYPTED!: {plaintext}')
   
